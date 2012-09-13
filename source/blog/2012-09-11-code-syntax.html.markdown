@@ -1,7 +1,7 @@
 ---
-title: testarticle
+title: Code Syntax
 date: 2012-09-11
-tags:
+tags: markdown, syntax
 ---
 
 ``` yaml
