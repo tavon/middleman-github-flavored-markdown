@@ -4,6 +4,8 @@ date: 2012-09-11
 tags: markdown, syntax
 ---
 
+Example of YAML markup:
+
 ``` yaml
 friends:
   - Tom
