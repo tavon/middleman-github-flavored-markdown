@@ -32,3 +32,27 @@ Which will render:
   <li>Harry</li>
 </ol>
 ```
+
+``` coffeescript
+#= require "jquery"
+
+$(document).ready ->
+  $(".item").pluginCode
+    param1: true
+    param2: "maybe"
+```
+
+The output of this file will be the jQuery library at the code and then the app code, compiled into Javascript, beneath.
+
+You could also write your app file in regular Javascript with a file named `app.js` which looks like this:
+
+``` javascript
+//= require "jquery"
+
+$(document).ready(function() {
+  $(".item").pluginCode({
+    param1: true,
+    param2: "maybe"
+  });
+});
+```
